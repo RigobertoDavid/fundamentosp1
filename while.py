@@ -23,7 +23,7 @@ def verifpassw():
  
  print("Bienvenido Usuario Admin")
 
-verifpassw()
+#verifpassw()
 
 
 #verifpassw()
@@ -45,6 +45,34 @@ def comecena():
       print("Usted ya dejó de comer")
       cantcomida=0
       
-   sd
-comecena()
+   
+#comecena()
+
+
+
+
+
+
+def cantmicro():
+  cantmicros=int (0)
+  hora = int(8)
+  
+  #las micros pasan solo hasta las 2
+  #el usuario comienza a esperar a las 8
+  #cada vez que dice que no, pasa una hora
+
+
+while cantmicros !=int(3) and hora != (12):
+  print("ha pasado una micro?")    
+                                       
+  respuesta=input()
+
+  if respuesta==("si"):
+    cantmicros=cantmicros+int(1)
+    print ("la cantidad de micros que han pasado son", cantmicros)
+    if cantmicros == int(3):
+      print ("\")
     
+
+   
+ 

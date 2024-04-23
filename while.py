@@ -45,6 +45,6 @@ def comecena():
       print("Usted ya dejó de comer")
       cantcomida=0
       
-   
+   sd
 comecena()
     
